@@ -1,6 +1,6 @@
-.contenedorGeneralNavBar {
+.contenedorGeneralHero {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .contenedorMedia img {
@@ -23,11 +23,11 @@
     position: absolute;
     top: 200px;
     left: 100px;
-    color: #B63932;
+    color: var(--impactoRed);
     padding: 0 5px;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 900;
-    background-color: black;
+    background-color: var(--impactoBlack);
 }
 
 .contenedorMedia button {
@@ -35,7 +35,7 @@
     top: 280px;
     left: 120px;
     padding: 20px;
-    background-color:black;
+    background-color:var(--impactoBlack);
     color: white;
     border: none;
     font-size: 20px;
@@ -44,8 +44,8 @@
 }
 
 .contenedorMedia button:hover {
-    color: black;
-    background-color: #B63932;
+    color: var(--impactoBlack);
+    background-color: var(--impactoRed);
     transition: all 300ms ease-in-out;
     transform: scale(1.05);
 }

@@ -1,0 +1,27 @@
+.generalSimpleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: var(--impactoBlack);
+    /* border-top: 8px solid var(--impactoRed);
+    border-bottom: 8px solid var(--impactoRed); */
+
+}
+
+.contenedorSimpleText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorSimpleText p {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 4px 4px 2px var(--impactoGray);
+    padding: 10px;
+    margin-top: 10px;
+}
