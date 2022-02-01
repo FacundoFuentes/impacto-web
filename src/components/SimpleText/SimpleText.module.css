@@ -4,9 +4,9 @@
     align-items: center;
     width: 100%;
     height: 300px;
-    background-color: black;
-    border-top: 8px solid var(--impactoRed);
-    border-bottom: 8px solid var(--impactoRed);
+    background-color: var(--impactoBlack);
+    /* border-top: 8px solid var(--impactoRed);
+    border-bottom: 8px solid var(--impactoRed); */
 
 }
 
@@ -21,7 +21,7 @@
     color: white;
     font-size: 50px;
     font-weight: 900;
-    text-shadow: 4px 4px 2px var(--impactoRed);
+    text-shadow: 4px 4px 2px var(--impactoGray);
     padding: 10px;
     margin-top: 10px;
 }
