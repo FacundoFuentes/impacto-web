@@ -1,10 +1,9 @@
 import './App.css';
+import HeroSection from './components/HeroSection/HeroSection.jsx';
 
 function App() {
   return (
-    <div >
-      React App
-    </div>
+    <HeroSection></HeroSection>
   );
 }
 
